@@ -1,0 +1,26 @@
+
+// block style
+.banner{
+  background-color: hsl(0, 0%, 88%);
+  height:250px;
+  display: grid;
+  place-items: center;
+}
+
+
+// element styles
+.banner__text{
+  text-align: center;
+  padding: 2rem;
+}
+
+.banner__link{
+  text-decoration: none;
+  color: black;
+  font-size: 35px;
+}
+
+.banner__media > img{
+  width: 100%;
+  height: 100%;
+}
